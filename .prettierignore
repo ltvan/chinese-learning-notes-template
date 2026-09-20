@@ -1,0 +1,7 @@
+# Sinh tự động — format lại sẽ tạo diff giả mỗi lần chạy build_index.py
+index/
+# Placeholder ([[ ]], {{date}}, giá trị trống) không phải markdown/YAML hợp lệ
+templates/
+.obsidian/
+# Prettier tự thêm dấu phẩy cuối vào file cấu hình của chính nó
+.prettierrc
