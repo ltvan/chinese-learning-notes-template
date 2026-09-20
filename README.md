@@ -2,7 +2,15 @@
 
 Khung sườn cho một vault ghi chú tiếng Hoa cá nhân, dành cho người Việt: bạn học trên app nào cũng được, rồi đưa danh sách chữ/từ vừa học cho một **AI agent** (Claude, ChatGPT/Codex, Gemini/Antigravity, Copilot, Cursor…) — agent viết note cho từng từ, từng chữ, từng bộ thủ (cấu tạo, mẹo nhớ, âm Hán Việt, phồn thể, chữ dễ nhầm), liên kết chúng với nhau và sinh chỉ mục tra cứu. Tất cả là file Markdown thuần nằm trên máy bạn, đọc bằng [Obsidian](https://obsidian.md) hoặc VS Code.
 
-Repo kèm sẵn một buổi học mẫu ([[2026-09-20]]: chào hỏi, cảm ơn, xin lỗi) để bạn thấy note trông ra sao.
+Repo kèm sẵn một buổi học mẫu ([2026-09-20](lessons/2026-09-20.md): chào hỏi, cảm ơn, xin lỗi) để bạn thấy note trông ra sao.
+
+![Nhật ký buổi học mẫu mở trong Obsidian: danh sách từ mới và chữ mới, mỗi mục là một liên kết](docs/screenshots/lesson-note.png)
+
+_Nhật ký một buổi học — mỗi từ, mỗi chữ là một liên kết tới note riêng._
+
+![Rê chuột lên liên kết 你好 trong Obsidian để xem trước note của từ: các chữ, ghép nghĩa, phát âm](docs/screenshots/hover-preview.png)
+
+_Giữ Ctrl/Cmd và rê chuột lên liên kết để xem trước note: các chữ cấu thành, cách ghép nghĩa, lưu ý phát âm._
 
 ## Bắt đầu
 
@@ -48,17 +56,17 @@ Muốn bắt đầu từ vault trống, bảo agent: _"xoá toàn bộ note mẫ
 
 ## Tra cứu
 
-- [[by-pinyin]] — theo pinyin
-- [[by-hanviet]] — theo âm Hán Việt
-- [[by-radical]] — theo bộ thủ
-- [[by-date]] — theo ngày học
-- [[traditional]] — tra ngược từ chữ phồn thể
+- [by-pinyin](index/by-pinyin.md) — theo pinyin
+- [by-hanviet](index/by-hanviet.md) — theo âm Hán Việt
+- [by-radical](index/by-radical.md) — theo bộ thủ
+- [by-date](index/by-date.md) — theo ngày học
+- [traditional](index/traditional.md) — tra ngược từ chữ phồn thể
 - Search nhanh: gõ `hao3` (pinyin không dấu), `hảo` (Hán Việt) hoặc nghĩa tiếng Việt — đều nằm trong frontmatter.
-- Mở note một bộ thủ (vd [[女]]) và xem **backlink** → mọi chữ đã học chứa bộ đó.
+- Mở note một bộ thủ (vd [女](radicals/女.md)) và xem **backlink** → mọi chữ đã học chứa bộ đó.
 
 ## Cách dùng hằng ngày
 
-1. Học xong trên app → dán chữ/từ vào [[inbox]] (hoặc gõ thẳng cho agent: "hôm nay học 你好, 谢谢").
+1. Học xong trên app → dán chữ/từ vào [inbox](inbox.md) (hoặc gõ thẳng cho agent: "hôm nay học 你好, 谢谢").
 2. Bảo agent "xử lý inbox" → agent viết note từ, chữ, bộ thủ, nhật ký buổi học, cập nhật chỉ mục, commit.
 3. Muốn thêm ý riêng: viết vào mục **Ghi chú của tôi** của note — agent không đụng vào mục này.
 4. Ôn: "quiz tôi các chữ tuần này" / "quiz nhóm chữ dễ nhầm".
@@ -76,7 +84,7 @@ Muốn bắt đầu từ vault trống, bảo agent: _"xoá toàn bộ note mẫ
 | `index/`       | chỉ mục sinh tự động — `python3 tools/build_index.py` |
 | `templates/`   | khuôn note                                            |
 
-Quy ước chi tiết cho agent: `AGENTS.md`.
+Quy ước chi tiết cho agent: [AGENTS.md](AGENTS.md).
 
 ## Giấy phép
 
