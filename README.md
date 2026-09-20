@@ -19,7 +19,7 @@ _Giữ Ctrl/Cmd và rê chuột lên liên kết để xem trước note: các c
 Chọn một trong ba cách:
 
 - **Download ZIP** (dễ nhất, không cần biết Git): trên [trang GitHub của repo này](https://github.com/ltvan/chinese-learning-notes-template) bấm nút **Code → Download ZIP**, giải nén vào nơi bạn muốn lưu (vd `Documents/tieng-hoa`).
-- **Fork / Use this template**: nếu bạn có tài khoản GitHub và muốn lưu vault của mình trên đó — bấm **Fork** (hoặc **Use this template**), rồi clone repo của bạn về máy.
+- **Fork / Use this template**: nếu bạn có tài khoản GitHub và muốn lưu vault của mình trên đó — bấm **Use this template → Create a new repository** (hoặc **Fork**), rồi clone repo của bạn về máy. Vault là ghi chú cá nhân, nên hãy để repo ở chế độ **Private**: với **Use this template**, chọn **Private** ngay lúc tạo (hoặc đổi sau ở **Settings → General → Danger Zone → Change repository visibility**). Lưu ý: GitHub không cho chuyển bản **Fork** của một repo public sang private — muốn giữ riêng tư thì dùng **Use this template** thay vì Fork.
 - **Clone**: `git clone https://github.com/ltvan/chinese-learning-notes-template.git`.
 
 ### 2. Mở bằng Obsidian
